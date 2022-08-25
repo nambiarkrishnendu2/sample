@@ -63,7 +63,6 @@ with st.container():
             Others say as many as 17 percent of people show signs of reading challenges.
             """
         )
-        st.image("image5.jpg")
         with left_column:
             st.subheader("Dyslexia signs and symptoms")
             st.write("##")
@@ -85,7 +84,6 @@ with st.container():
                 
                 """
         )
-        st.image("dyslexia.jpg")
         with right_column:
             st.subheader("possible causes of dyslexia")
             st.write(
@@ -102,7 +100,6 @@ with st.container():
                 Those skills are knowing how sounds are represented in words, and recognizing what written words look like.
                 """
         )
-        st.image("possible_causes.jpg")
         with left_column:
             st.subheader("How dyslexia is diagonsed")
             st.write("##")
@@ -125,7 +122,7 @@ with st.container():
                 
                 """
         )
-        st.image("dyslexia_diagonized.jpg")
+
 
         
         
