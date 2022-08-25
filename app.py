@@ -19,8 +19,8 @@ def load_lottieurl(url):
 
 #--- LOAD ASSETS ----
 lottie_coding = load_lottieurl("https://assets3.lottiefiles.com/packages/lf20_fmgfy8rq.json")
-lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/private_files/lf30_sxw84pnl.json")
 
+lottie_coding = load_lottieurl("https://assets3.lottiefiles.com/packages/lf20_fmgfy8rq.json")
 # ---- HEADER SECTION ----
 with st.container():
     st.subheader("Hi, I am Sven :wave:")
@@ -30,12 +30,12 @@ with st.container():
     )
     st.write("[Learn More >](https://pythonandvba.com)")
 
-# ---- WHAT I DO ----
+# ---- WHAT you will learn ----
 with st.container():
     st.write("---")
     left_column, right_column = st.columns(2)
     with left_column:
-        st.header("What I do")
+        st.header("What you will learn")
         st.write("##")
         st.write(
             """
@@ -54,9 +54,36 @@ with st.container():
          st.write("[Dyslexia checker >](https://suraksha-rajagopalan-dyslexia-app-lkjcee.streamlitapp.com/)")
     with right_column:
         st_lottie(lottie_coding, height=300, key="coding")
-    with left_column:
-        st_lottie(lottie_coding, height=300, key="coding")
 
+
+        
+        
+        
+ 
+# ---- dyslexia ----
+with st.container():
+    st.write("---")
+    left_column, right_column = st.columns(2)
+    with left_column:
+        st.header("what dyslexia is")
+        st.write("##")
+        st.write(
+            """
+            Dyslexia is a learning disability in reading. 
+            People with dyslexia have trouble reading at a good pace and without mistakes.
+            They may also have a hard time with reading comprehension, spelling, and writing.
+            But these challenges aren’t a problem with intelligence.
+            Snapshot: What dyslexia is
+            Dyslexia is a common condition that makes it hard to work with language.
+            Some experts believe that between 5 and 10 percent of people have it.
+            Others say as many as 17 percent of people show signs of reading challenges.
+            People with dyslexia don’t outgrow it. 
+            But there are teaching approaches and strategies that can help them improve their reading skills and manage the challenges. 
+            People of any age can be tested for dyslexia, although the tests are different for adults than for kids.
+            """
+        )
+    with right_column:
+        st_lottie(lottie_coding, height=300, key="coding")
 # ---- PROJECTS ----
 with st.container():
     st.write("---")
