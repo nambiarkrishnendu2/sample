@@ -20,6 +20,7 @@ with st.container():
             -Possible causes of dyslexia
             
             -How dyslexia is diagnosed
+            
             if this sounds interesting to you consider checking the link below
             """
         )
