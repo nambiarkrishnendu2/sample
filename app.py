@@ -125,7 +125,7 @@ with st.container():
                 
                 """
         )
-        st.image("dyslexia_diagonized.jpeg")
+            st.image("dyslexia_diagonized.jpeg")
 
 
         
