@@ -16,7 +16,7 @@ def load_lottieurl(url):
 
 
 # ---- LOAD ASSETS ----
-lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_fcfjwiyb.json")
+lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/private_files/lf30_sxw84pnl.json")
 
 # ---- HEADER SECTION ----
 with st.container():
@@ -32,16 +32,19 @@ with st.container():
     st.write("---")
     left_column, right_column = st.columns(2)
     with left_column:
-        st.header("What I do")
+        st.header("What you will learn")
         st.write("##")
         st.write(
             """
-            On my YouTube channel I am creating tutorials for people who:
-            - are looking for a way to leverage the power of Python in their day-to-day work.
-            - are struggling with repetitive tasks in Excel and are looking for a way to use Python and VBA.
-            - want to learn Data Analysis & Data Science to perform meaningful and impactful analyses.
-            - are working with Excel and found themselves thinking - "there has to be a better way."
-            If this sounds interesting to you, consider subscribing and turning on the notifications, so you don’t miss any content.
+            -Snapshot:What dyslexia is 
+            
+            -Dyslexia signs and symptoms
+            
+            -Possible causes of dyslexia
+            
+            -How dyslexia is diagnosed
+            
+            if this sounds interesting to you consider checking the link below
             """
         )
         st.write("[YouTube Channel >](https://youtube.com/c/CodingIsFun)")
