@@ -112,6 +112,7 @@ with st.container():
                 An evaluator will give a series of tests for dyslexia.
                 They’ll test in other areas as well to see exactly where any weaknesses and strengths lie.
                 School evaluations are free. 
+                
                 But private ones can be very expensive.
                 In some cases, there are ways to get them for free or at a low cost.
                 Local universities often have programs in psychology that have clinics where students do their training.
