@@ -9,10 +9,10 @@ st.title("A Data Analayst From Germany")
 st.write("I am passionate about finding way to use python and VBA to be more efficient")
 st.write("[Learn more >](https://pythonandvba.com)")
 def load_lottieurl(url):
-    r=requests.get(url)
-    if r.status_code !=200:
-        return=None
-    return r.json()
+    r=requests.get(url):
+        if r.status_code !=200:
+            return=None
+        return r.json()
 # load assets 
 lottie_coding =load_lottieurl("https://assets7.lottiefiles.com/packages/lf20_fmgfy8rq.json")
 
