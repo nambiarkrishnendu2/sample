@@ -17,7 +17,7 @@ def load_lottieurl(url):
 
 # ---- LOAD ASSETS ----
 lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/private_files/lf30_sxw84pnl.json")
-lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/private_files/lf30_sxw84pnl.json")1
+
 
 # ---- HEADER SECTION ----
 with st.container():
@@ -50,7 +50,7 @@ with st.container():
         st.write("[YouTube Channel >](https://youtube.com/c/CodingIsFun)")
     with right_column:
         st_lottie(lottie_coding, height=300, key="coding")
-        st_lottie(lottie_coding, height=300, key="coding")
+       
 # ---- PROJECTS ----
 with st.container():
     st.write("---")
