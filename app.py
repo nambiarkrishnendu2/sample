@@ -63,6 +63,7 @@ with st.container():
             Others say as many as 17 percent of people show signs of reading challenges.
             """
         )
+        st.image("image5.jpeg")
         with left_column:
             st.subheader("Dyslexia signs and symptoms")
             st.write("##")
