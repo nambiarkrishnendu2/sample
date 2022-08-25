@@ -54,6 +54,8 @@ with st.container():
          st.write("[Dyslexia checker >](https://suraksha-rajagopalan-dyslexia-app-lkjcee.streamlitapp.com/)")
     with right_column:
         st_lottie(lottie_coding, height=300, key="coding")
+    with left_column:
+        st_lottie(lottie_coding, height=300, key="coding")
 
 # ---- PROJECTS ----
 with st.container():
