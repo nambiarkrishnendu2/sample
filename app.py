@@ -84,6 +84,22 @@ with st.container():
                 
                 """
         )
+        with right_column:
+            st_lottie(lottie_coding, height=300, key="coding")
+            st.header("possible causes of dyslexia")
+            st.subheader("Genes and heridity:")
+            st.write(
+                """
+                Researchers haven’t yet pinpointed exactly what causes dyslexia.
+                But they do know that genes and brain differences play a role. 
+                Here are some of the possible causes of dyslexia:
+                Genes and heredity: Dyslexia often runs in families.
+                About 40 percent of siblings of people with dyslexia also struggle with reading.
+                As many as 49 percent of parents of kids with dyslexia have it, too. 
+                Scientists have also found genes linked to problems with reading and processing language.
+                
+                """
+        )
 
         
         
