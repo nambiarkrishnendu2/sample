@@ -17,7 +17,7 @@ def load_lottieurl(url):
 
 
 
-# ---- LOAD ASSETS ----
+#--- LOAD ASSETS ----
 lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_fcfjwiyb.json")
 
 
