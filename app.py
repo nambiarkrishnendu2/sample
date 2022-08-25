@@ -103,7 +103,7 @@ with st.container():
                 """
         )
             st.image("possible causes.jpeg")
-        with left_column:
+        with right_column:
             st.subheader("How dyslexia is diagonsed")
             st.write("##")
             st.write(
