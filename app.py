@@ -26,7 +26,7 @@ with st.container():
         )
         st.write("[Dyslexia checker >](https://suraksha-rajagopalan-dyslexia-app-lkjcee.streamlitapp.com/)")
         import json
-        import request
+        import requests
         from streamlit_lottie import st_lottie
         def load_lottie(url: str:):
             r=requests.get(url)
