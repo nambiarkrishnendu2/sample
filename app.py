@@ -36,6 +36,7 @@ with st.container():
         st.write("##")
         st.write(
             """
+            
             -Snapshot:What dyslexia is 
             
             -Dyslexia signs and symptoms
@@ -50,7 +51,18 @@ with st.container():
         st.write("[YouTube Channel >](https://youtube.com/c/CodingIsFun)")
     with right_column:
         st_lottie(lottie_coding, height=300, key="coding")
-       
+        st.subheader("Snapshot:what is Dyslexia is")
+        st.write(
+            """
+            Dyslexia is a learning disability in reading. 
+            People with dyslexia have trouble reading at a good pace and without mistakes.
+            They may also have a hard time with reading comprehension, spelling, and writing.
+            But these challenges aren’t a problem with intelligence.
+            Dyslexia is a common condition that makes it hard to work with language. 
+            Some experts believe that between 5 and 10 percent of people have it.
+            Others say as many as 17 percent of people show signs of reading challenges.
+            """
+        )
 # ---- PROJECTS ----
 with st.container():
     st.write("---")
