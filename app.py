@@ -33,3 +33,4 @@ with st.container():
             if r.status_code != 200:
                 return None
             return r.json()
+lottie_hello=load_lottieuri("https://assets9.lottiefiles.com/packages/lf20_fmgfy8rq.json")
