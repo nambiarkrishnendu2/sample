@@ -100,6 +100,27 @@ with st.container():
                 Those skills are knowing how sounds are represented in words, and recognizing what written words look like.
                 """
         )
+        with left_column:
+            st.subheader("How dyslexia is diagonsed")
+            st.write("##")
+            st.write(
+                """
+                The only way to know for sure if someone has dyslexia is through a full evaluation, done either at school or privately.
+                Having a diagnosis (schools call it an identification) can lead to supports and services at school, and accommodations at college and work.
+                There are a few types of professionals who can assess people for dyslexia. 
+                These include school psychologists, clinical psychologists, and neuropsychologists. 
+                An evaluator will give a series of tests for dyslexia.
+                They’ll test in other areas as well to see exactly where any weaknesses and strengths lie.
+                School evaluations are free. 
+                But private ones can be very expensive.
+                In some cases, there are ways to get them for free or at a low cost.
+                Local universities often have programs in psychology that have clinics where students do their training.
+                Teaching hospitals may have research projects where people can get evaluations for free.
+                Learning Disabilities Association of America (LDA) has local chapters in every state.
+                They may be able to help with finding free or low-cost options.
+                
+                """
+        )
 
         
         
