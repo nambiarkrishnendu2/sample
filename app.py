@@ -31,6 +31,6 @@ with st.container():
         def load_lottie(url: str):
             r=requests.get(url)
             if r.status_code != 200:
-                return None
+                return Null
             return r.json()
 lottie_hello=load_lottieuri("https://assets9.lottiefiles.com/packages/lf20_fmgfy8rq.json")
