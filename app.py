@@ -84,6 +84,7 @@ with st.container():
                 
                 """
         )
+        st.image("dyslexia.jpeg")
         with right_column:
             st.subheader("possible causes of dyslexia")
             st.write(
