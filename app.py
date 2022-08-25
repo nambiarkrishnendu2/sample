@@ -30,21 +30,10 @@ with st.container():
         )
         st.write("[Dyslexia checker >](https://suraksha-rajagopalan-dyslexia-app-lkjcee.streamlitapp.com/)")
         
-        def load_lottie(url: str):
-            r=requests.get(url)
-            if r.status_code != 200:
-                return None
-            return r.json()
-lottie_hello=load_lottieurl("https://assets9.lottiefiles.com/packages/lf20_fmgfy8rq.json")
-st.title("Include lottile files in stream lit")
-st_lottie(
-    lottie_coding,
-    speed=1,
-    reverse=False,
-    loop=True,
-    quality="low",#medium;high
-    renderer="svg",#canavas
-    height=None,
-    width=None,
-    key=None,
-)
+       def load_lottieurl(url):
+    r=requests.get(url)
+    if r.status_code !=200:
+        return=None
+    return r.json()
+# load assets 
+lottie_coding =load_lottieurl("https://assets7.lottiefiles.com/packages/lf20_fmgfy8rq.json")
