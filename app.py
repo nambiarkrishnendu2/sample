@@ -1,4 +1,8 @@
 import streamlit as st
+import json
+import requests
+from streamlit_lottie import st_lottie
+
 st.set_page_config(page_title="My webpage",page_icon=":tada:",layout="wide")
 st.subheader("Hi, I am Sven :wave:")
 st.title("A Data Analayst From Germany")
@@ -25,9 +29,7 @@ with st.container():
             """
         )
         st.write("[Dyslexia checker >](https://suraksha-rajagopalan-dyslexia-app-lkjcee.streamlitapp.com/)")
-        import json
-        import requests
-        from streamlit_lottie import st_lottie
+        
         def load_lottie(url: str):
             r=requests.get(url)
             if r.status_code != 200:
