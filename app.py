@@ -1,7 +1,7 @@
 import requests
 import streamlit as st
 from streamlit_lottie import st_lottie
-
+from PIL import Image
 
 
 # Find more emojis here: https://www.webfx.com/tools/emoji-cheat-sheet/
@@ -15,12 +15,19 @@ def load_lottieurl(url):
     return r.json()
 
 
+# Use local CSS
+def local_css(file_name):
+    with open(file_name) as f:
+        st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 
-#--- LOAD ASSETS ----
-lottie_coding = load_lottieurl("https://assets3.lottiefiles.com/packages/lf20_fmgfy8rq.json")
+local_css("style/style.css")
 
-lottie_coding = load_lottieurl("https://assets3.lottiefiles.com/packages/lf20_fmgfy8rq.json")
+# ---- LOAD ASSETS ----
+lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_fcfjwiyb.json")
+img_contact_form = Image.open("images/yt_contact_form.png")
+img_lottie_animation = Image.open("images/yt_lottie_animation.png")
+
 # ---- HEADER SECTION ----
 with st.container():
     st.subheader("Hi, I am Sven :wave:")
@@ -30,60 +37,27 @@ with st.container():
     )
     st.write("[Learn More >](https://pythonandvba.com)")
 
-# ---- WHAT you will learn ----
+# ---- WHAT I DO ----
 with st.container():
     st.write("---")
     left_column, right_column = st.columns(2)
     with left_column:
-        st.header("What you will learn")
+        st.header("What I do")
         st.write("##")
         st.write(
             """
-             -Snapshot:What dyslexia is 
-            
-            -Dyslexia signs and symptoms
-            
-            -Possible causes of dyslexia
-            
-            -How dyslexia is diagnosed
-            
-            if this sounds interesting to you consider checking the link below
-
+            On my YouTube channel I am creating tutorials for people who:
+            - are looking for a way to leverage the power of Python in their day-to-day work.
+            - are struggling with repetitive tasks in Excel and are looking for a way to use Python and VBA.
+            - want to learn Data Analysis & Data Science to perform meaningful and impactful analyses.
+            - are working with Excel and found themselves thinking - "there has to be a better way."
+            If this sounds interesting to you, consider subscribing and turning on the notifications, so you don’t miss any content.
             """
         )
-        st.write("[Dyslexia checker >](https://suraksha-rajagopalan-dyslexia-app-lkjcee.streamlitapp.com/)")
-        with right_column:
-        st_lottie(lottie_coding, height=300, key="coding")
-
-
-        
-        
-        
- 
-# ---- dyslexia ----
-with st.container():
-    st.write("---")
-    left_column, right_column = st.columns(2)
-    with left_column:
-        st.header("what dyslexia is")
-        st.write("##")
-        st.write(
-            """
-            Dyslexia is a learning disability in reading. 
-            People with dyslexia have trouble reading at a good pace and without mistakes.
-            They may also have a hard time with reading comprehension, spelling, and writing.
-            But these challenges aren’t a problem with intelligence.
-            Snapshot: What dyslexia is
-            Dyslexia is a common condition that makes it hard to work with language.
-            Some experts believe that between 5 and 10 percent of people have it.
-            Others say as many as 17 percent of people show signs of reading challenges.
-            People with dyslexia don’t outgrow it. 
-            But there are teaching approaches and strategies that can help them improve their reading skills and manage the challenges. 
-            People of any age can be tested for dyslexia, although the tests are different for adults than for kids.
-            """
-        )
+        st.write("[YouTube Channel >](https://youtube.com/c/CodingIsFun)")
     with right_column:
         st_lottie(lottie_coding, height=300, key="coding")
+
 # ---- PROJECTS ----
 with st.container():
     st.write("---")
