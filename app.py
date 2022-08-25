@@ -85,8 +85,7 @@ with st.container():
                 """
         )
         with right_column:
-            st.header("possible causes of dyslexia")
-            st.subheader("Genes and heridity:")
+            st.subheader("possible causes of dyslexia")
             st.write(
                 """
                 Researchers haven’t yet pinpointed exactly what causes dyslexia.
@@ -96,7 +95,9 @@ with st.container():
                 About 40 percent of siblings of people with dyslexia also struggle with reading.
                 As many as 49 percent of parents of kids with dyslexia have it, too. 
                 Scientists have also found genes linked to problems with reading and processing language.
-                
+                Brain anatomy and activity: Brain imaging studies have shown brain differences between people with and without dyslexia.
+                These differences happen in areas of the brain involved with key reading skills. 
+                Those skills are knowing how sounds are represented in words, and recognizing what written words look like.
                 """
         )
 
