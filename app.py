@@ -100,6 +100,7 @@ with st.container():
                 Those skills are knowing how sounds are represented in words, and recognizing what written words look like.
                 """
         )
+        st.image("dyslexia.jpg")
         with left_column:
             st.subheader("How dyslexia is diagonsed")
             st.write("##")
