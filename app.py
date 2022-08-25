@@ -51,7 +51,7 @@ with st.container():
 
             """
         )
-        st.write("[YouTube Channel >](https://youtube.com/c/CodingIsFun)")
+         st.write("[Dyslexia checker >](https://suraksha-rajagopalan-dyslexia-app-lkjcee.streamlitapp.com/)")
     with right_column:
         st_lottie(lottie_coding, height=300, key="coding")
 
