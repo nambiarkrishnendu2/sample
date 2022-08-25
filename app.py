@@ -1,30 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@nambiarkrishnendu2 
-Sven-Bo
-/
-personal-website-streamlit
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-personal-website-streamlit/app.py /
-
-Sven-Bo 🎉 Init Commit
-Latest commit cad1391 on Dec 22, 2021
- History
- 0 contributors
-114 lines (99 sloc)  4.12 KB
-
 import requests
 import streamlit as st
 from streamlit_lottie import st_lottie
@@ -138,18 +111,3 @@ with st.container():
         st.markdown(contact_form, unsafe_allow_html=True)
     with right_column:
         st.empty()
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-You have no unread notifications
