@@ -14,8 +14,11 @@ with st.container():
         st.write(
             """
             -Snapshot:What dyslexia is 
+            
             -Dyslexia signs and symptoms
+            
             -Possible causes of dyslexia
+            
             -How dyslexia is diagnosed
             if this sounds interesting to you consider checking the link below
             """
